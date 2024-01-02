@@ -1,0 +1,78 @@
+{
+  "api": {
+    "name": "CapacitorJailbreakRootDetectionPlugin",
+    "slug": "capacitorjailbreakrootdetectionplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "isJailbrokenOrRooted",
+        "signature": "() => any",
+        "parameters": [],
+        "returns": "any",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [
+          "JailbreakRootResult"
+        ],
+        "slug": "isjailbrokenorrooted"
+      },
+      {
+        "name": "isSimulator",
+        "signature": "() => any",
+        "parameters": [],
+        "returns": "any",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [
+          "JailbreakRootResult"
+        ],
+        "slug": "issimulator"
+      },
+      {
+        "name": "isDebuggedMode",
+        "signature": "() => any",
+        "parameters": [],
+        "returns": "any",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [
+          "JailbreakRootResult"
+        ],
+        "slug": "isdebuggedmode"
+      },
+      {
+        "name": "exitApp",
+        "signature": "() => void",
+        "parameters": [],
+        "returns": "void",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "exitapp"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [
+    {
+      "name": "JailbreakRootResult",
+      "slug": "jailbreakrootresult",
+      "docs": "",
+      "tags": [],
+      "methods": [],
+      "properties": [
+        {
+          "name": "result",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "boolean"
+        }
+      ]
+    }
+  ],
+  "enums": [],
+  "typeAliases": [],
+  "pluginConfigs": []
+}
