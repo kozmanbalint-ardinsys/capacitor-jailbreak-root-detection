@@ -11,7 +11,7 @@
     "android/build.gradle",
     "dist/",
     "ios/Plugin/",
-    "EvehrCapacitorJailbreakRootDetection.podspec"
+    "CapacitorJailbreakRootDetection.podspec"
   ],
   "author": "EveHR",
   "license": "MIT",
